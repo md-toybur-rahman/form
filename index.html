@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bachelor Food</h1>
+    <form>
+        <label for="Name">Your Name
+            <input type="text" placeholder="Enter Your Name">
+        </label>
+        <label for="Room">Your Room No
+            <input type="number" placeholder="Enter Your Room No">
+        </label>
+
+        <fieldset>
+            <legend>Select One Kind of Rice</legend>
+            <label for="Normal Rice">
+                <input type="radio" name="rice" id="Normal Rice">
+                Normal Rice
+            </label>
+            <label for="Polau">
+                <input type="radio" name="rice" id="Polau">
+                Polau
+            </label>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Select One or More Kind of Torkari</legend>
+            <label for="Egg">
+                <input type="checkbox" name="Torkari" id="Egg">
+                Egg With Potato
+            </label>
+            <label for="Pabda Fish">
+                <input type="checkbox" name="Torkari" id="Pabda Fish">
+                Pabda Fish
+            </label>
+            <label for="Pabda Fish">
+                <input type="checkbox" name="Torkari" id="Pabda Fish">
+                Pabda Fish
+            </label>
+            <label for="Murgi">
+                <input type="checkbox" name="Torkari" id="Murgi">
+                Murigi
+            </label>
+            <label for="Gorur Mangsho">
+                <input type="checkbox" name="Torkari" id="Gorur Mangsho">
+                Gorur Mangsho
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Do you want Solt?</legend>
+                <label for="Yes">
+                    <input type="radio" name="solt" id="Yes">
+                    Yes
+                </label>
+                <label for="No">
+                    <input type="radio" name="solt" id="No">
+                    No
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Spacial Instruction</legend>
+                <textarea name="Special" id="Instruction" cols="30" rows="2" placeholder="Are you want anything more?"></textarea>
+        </fieldset>
+
+        <label class="resu" for="reset">
+            <input type="reset" name="" id="">
+            <input type="submit" name="" id="">
+        </label>
+        
+    </form>
+
+</body>
+</html>
